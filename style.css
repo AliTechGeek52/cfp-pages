@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url(assets/fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url(assets/fonts/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: "Raleway-Semi";
+  src: url(assets/fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url(assets/fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Raleway-Light";
+  src: url(assets/fonts/Raleway-Light.ttf);
+}
+@font-face {
+  font-family: "PublicSans-Light";
+  src: url(assets/fonts/PublicSans-Light.ttf);
+}
+@font-face {
+  font-family: "PublicSans-Regular";
+  src: url(assets/fonts/PublicSans-Regular.ttf);
+}
+@font-face {
+  font-family: "PublicSans-Medium";
+  src: url(assets/fonts/PublicSans-Medium.ttf);
+}
+@font-face {
+  font-family: "PublicSans-Bold";
+  src: url(assets/fonts/PublicSans-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+a, .btn{
+  font-family: "PublicSans-Medium";
+}
+
+/* Raleway Font Family */
+
+.rale-font{
+  font-family: "Raleway-Regular";
+}
+
+.rale-semi-font{
+  font-family: "Raleway-Semi";
+}
+
+.rale-bold-font{
+  font-family: "Raleway-Bold";
+}
+
+.rale-med-font{
+  font-family:'Raleway-Medium';
+}
+
+.rale-light-font{
+  font-family:'Raleway-Light';
+}
+/* Public Sans Font Family */
+
+.pbs-font{
+ font-family:"PublicSans-Regular";
+}
+
+.pbs-light-font{
+  font-family:"PublicSans-Light";
+}
+.pbs-med-font{
+  font-family:"PublicSans-Medium";
+ }
+
+.pbs-bold-font {
+  font-family:"PublicSans-bold"
+}
+
+.top-heading{
+  color:#212529;
+}
+.bg-green {
+  background-color: #72ba49;
+}
+.top-fellowship-border {
+  background: url("assets/images-fellowship/top-border-1.svg") repeat-x top / contain;
+  background-size: auto;
+  min-height: 60px;
+}
+.fellowship-hero-section{
+  background-image: linear-gradient(to right, rgb(0, 0, 0, 0.8),  rgb(115, 115, 115, 0.1), transparent), url('assets/images-fellowship/hero-section.svg');
+  background-size: cover;
+}
+.color-lightgreen {
+  color: #72ba49;
+}
+
+.custom-bg {
+  background-color: #ff9400;
+}
+.custom-divider {
+  width: 75px;
+  height: 8px;
+  background-color: white;
+}
+
+.b-24{
+  border-color: #d9d9d9 !important;
+  border-radius: 24px;
+}
+
+.b-13{
+border-color: #d9d9d9 !important;
+border-radius: 13px;
+}
+
+.b-9{
+ border-radius: 9px;
+ background: #d9d9d9;
+}
+
+.bg-green{
+  background-color: #72ba49 !important;
+}
+
+/*
+################
+               Community Page 
+################
+*/
+
+.top-community-border {
+  background: url("assets/images-community/top-border-2.svg") repeat-x top / contain;
+  background-size: auto;
+  min-height: 60px;
+}
+
+.color-blue {
+  color: #1B1464;
+}
+
+.bg-blue {
+  background-color: #1B1464;
+}
+
+.w-95{
+  width: 90%;
+}
+
+.custom-divider-2{
+  width: 80px;
+  height: 8px;
+  background-color: yellow;
+}
+
+.px-6{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.community-hero-section {
+  background-image: url("assets/images-community/hero-section.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height:500px;
+}
